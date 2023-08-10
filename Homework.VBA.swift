@@ -48,3 +48,5 @@ volume_number = WorksheetFunction.Match(WorksheetFunction.Max(Range("L2:L" & Row
 Range("O2") = Cells(increase_number + 1, 9)
 Range("O3") = Cells(decrease_number + 1, 9)
 Range("O4") = Cells(volume_number + 1, 9)
+Next ws
+End Sub
